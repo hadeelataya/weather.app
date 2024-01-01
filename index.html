@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+    <title>Weather</title>
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+    <link href="webfonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="site-content">
+        <div class="site-header">
+            <div class="container">
+                <a class='branding' href='/'>
+                    <img src="images/logo@2x.png" alt="" class="logo">
+                    <div class="logo-type">
+                        <h1 class="site-title fw-bold fs-1">Weather</h1>
+                        <div class="date-time">
+                            <p id="date-time"></p>
+                        </div>
+                    </div>
+                </a>
+                    <form class="find-location">
+                        <input type="text" placeholder="Find your location..." id="search">
+                        <input type="button" value="Find" id="submit">
+                    </form>
+            </div>
+        </div>   
+        <div class="forecast-table my-5">
+            <div class="container">
+                <div class="forecast-container" id="forecast"></div>
+            </div>
+        </div>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Enter your email to subscribe...">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                        <div class="social-links">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="colophon my-1">Copyright 2014 Company name. Designed by Themezy. All rights reserved...</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
